@@ -1,0 +1,153 @@
+
+
+h1{
+    text-align: center;
+}
+
+.input-group{
+    text-align: center;
+}
+input[type=text], select {
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea{
+  padding: 12px 20px;
+  margin: -24px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+button {
+
+    background-color:#ea6153;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+
+}
+.deleteTag{
+  background-color: rgb(200, 200, 200);
+  padding: 3px 7px;
+}
+.addSubTaskNotesBtn{
+  background-color: green;
+  padding: 3px 7px;
+
+}
+table {
+    
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+  }
+  /* table tbody{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+  } */
+
+  table select{
+    float: right;
+  }
+
+  table select {
+    color:#ea6153;
+    padding: 5px 5px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  th{
+    font-weight: 900;
+    color: #ffffff;
+    background: #ea6153;
+    /* height: 30px; */
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 6px;
+  }
+  
+  tr:nth-child(even) {
+    background: #fceae8;
+    /* background-color: #dddddd; */
+  }
+  .collapsible.active .content {
+    display: block;
+}
+
+.collapsible {
+cursor: pointer;
+}
+
+.collapsible:after {
+  content: "+";
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "-";
+}
+
+.content {
+  margin-left: 20px;
+  display: none;
+  
+    background-color: #f1f1f1;
+}
+  /* .collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    /* width: 100%; */
+    /* border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  } 
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  } 
+  .content {
+    padding: 0 18px;
+    /* max-height: 0; */
+    /* overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }  */ 
